@@ -19,13 +19,34 @@
 
 # age_check(18)
 
-days = ('Mon','Tue','Wed','Thu','Fri')
+# days = ('Mon','Tue','Wed','Thu','Fri')
 
-for day in days:
-  if day == "Wed":
-    break
-  else:
-    print(day)
+# for day in days:
+#   if day == "Wed":
+#     break
+#   else:
+#     print(day)
 
-for letter in "nicolas":
-  print(letter)
+# for letter in "nicolas":
+#   print(letter)
+
+
+# 모듈 전체 임포트
+# import math
+
+# print(math.ceil(1.2))
+
+#모듈 부분 임포트
+# from math import ceil, fsum
+
+#모듈 기능 이름 변경
+# from math import fsum as sexy_sum
+
+
+# print(ceil(1.2))
+# print(fsum([1,2,3,4,5,6,7]))
+
+# calculator.py에서 만든 모듈 불러와서 사용하기
+from calculator import plus, minus
+print(plus(1,4))
+print(minus(1,2))
