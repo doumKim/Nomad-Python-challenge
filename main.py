@@ -10,7 +10,11 @@ def age_check(age):
   print(f"you are {age}")
   if age < 18:
     print("You can't drink")
+  elif age == 18:
+    print("You are new to this!")
+  elif age > 20 and age < 25:
+    print("You are still kind of young")
   else:
     print("Enjoy your drink")
 
-age_check(18)
+age_check(23)
