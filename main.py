@@ -1,7 +1,7 @@
 def plus(a,b):
-  if True:
-    return None
-  else:
+  if type(b) is int or type(b) is float:
     return a+b
+  else:
+    return None
 
-plus(12,"10")
+plus(12,10)
